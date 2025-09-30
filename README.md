@@ -7,4 +7,13 @@
 1. Clone/Download
 2. Run in Python
 
-## Example: ##
+## Features: ##
+- **Stats:**  
+  - `hunger`: Starts at 100  
+  - `health`: Starts at 100  
+  - `age`: Starts at 0  
+
+- **Loop Behavior:**  
+  - The program keeps running in a `while True` loop.  
+  - You will repeatedly be prompted to enter an action.  
+  - The stats will update based on your choices.
