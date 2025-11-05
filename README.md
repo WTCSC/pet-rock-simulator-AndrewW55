@@ -17,3 +17,29 @@
   - The program keeps running in a `while True` loop.  
   - You will repeatedly be prompted to enter an action.  
   - The stats will update based on your choices.
+
+## Decision Tree ##
+Start
+ └─ main()
+      ├─ Check age >= 100
+      │     └─ If True: End ("bruh died" / "RIP fr")
+      ├─ Else check health <= 50
+      │     ├─ If True:
+      │     │     ├─ Print status
+      │     │     ├─ Print "Cuh is NOT aight"
+      │     │     └─ Call Action(input)
+      ├─ Else check hunger <= 50
+      │     ├─ If True:
+      │     │     ├─ Print status
+      │     │     ├─ Print "Luh jit kina hungry?"
+      │     │     ├─ health = health - 10
+      │     │     └─ Call Action(input)
+      ├─ Else (normal case)
+      │     ├─ Print status
+      │     ├─ Print "bruh luh key chillin"
+      │     └─ Call Action(input)
+ └─ Action(act)
+      ├─ If act == "FEED"
+      ├─ Else if act == "REELS"
+      ├─ Else if act == "CLASH"
+      └─ Else if act == "LOOK"
